@@ -20,7 +20,7 @@ class AppRouter {
               ..add(
                 LoadApiEvent(),
               ),
-            child: const SpacexScreen(),
+            child: SpacexScreen(),
           ),
         );
 
@@ -31,7 +31,7 @@ class AppRouter {
               ..add(
                 LoadApiEvent(),
               ),
-            child: const SpacexScreen(),
+            child: SpacexScreen(),
           ),
         );
     }

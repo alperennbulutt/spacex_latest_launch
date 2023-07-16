@@ -39,6 +39,7 @@ class _MyAppState extends State<MyApp> {
         title: "Trial OnGenerate Route",
         onGenerateRoute: _appRouter.onGenerateRoute,
         debugShowCheckedModeBanner: false,
+        theme: ThemeData.dark(),
       ),
     );
   }

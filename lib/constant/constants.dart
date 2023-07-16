@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
 const kAppName = 'SpaceX Latest Launch';
-const kNetworkProblemText = 'Network Problem!';
 const kDetailsText = 'Details';
-const kFlightNumberText = 'Flight Number: ';
-const kDateText = 'Date: ';
-const kArticleText = 'Article: ';
+const kFlightNumberText = 'Flight Number';
+const kDateText = 'Date';
 const kWikipediaText = 'Wikipedia: ';
 const kYoutubeText = 'Youtube: ';
+const kRedditText = 'Reddit: ';
 const kSpace = 10.0;
 const kDoubleSpace = 20.0;
 const kPadding = EdgeInsets.all(10.0);
@@ -21,11 +20,11 @@ const kDetailBodyTextStyle = TextStyle(
   color: Colors.white70,
 );
 const kDetailBodyImportantInfoTextStyle = TextStyle(
-  fontSize: 18,
+  fontSize: 15,
   color: Colors.white,
 );
 const kDetailBodyLinkTextStyle = TextStyle(
-  fontSize: 18,
-  color: Colors.lightBlue,
-  decoration: TextDecoration.underline,
-);
+    fontSize: 10,
+    color: Colors.lightBlue,
+    decoration: TextDecoration.underline,
+    overflow: TextOverflow.fade);
